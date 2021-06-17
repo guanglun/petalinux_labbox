@@ -1555,7 +1555,7 @@ CONFIG_run-postinsts=y
 #
 # libmetal 
 #
-# CONFIG_libmetal is not set
+CONFIG_libmetal=y
 # CONFIG_libmetal-dbg is not set
 # CONFIG_libmetal-dev is not set
 
@@ -3080,7 +3080,7 @@ CONFIG_packagegroup-core-ssh-dropbear=y
 # sysfsutils 
 #
 # CONFIG_sysfsutils is not set
-# CONFIG_libsysfs is not set
+CONFIG_libsysfs=y
 # CONFIG_sysfsutils-dev is not set
 # CONFIG_sysfsutils-dbg is not set
 
@@ -4001,6 +4001,7 @@ CONFIG_imagefeature-debug-tweaks=y
 #
 # apps 
 #
+CONFIG_cpu1=y
 # CONFIG_gpio-demo is not set
 # CONFIG_peekpoke is not set
 
