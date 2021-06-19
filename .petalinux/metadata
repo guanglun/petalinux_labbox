@@ -3,4 +3,4 @@ VALIDATE_HW_CHKSUM=1
 HARDWARE_PATH=/home/guanglun/workspace/zynq/petalinux_labbox/hardware/labbox_wrapper.xsa
 HARDWARE_CHECKSUM=da06ced400eba149a461e56a0ffd9bd6
 YOCTO_SDK=ec2933eff44b6c49df87d39a9666aafb
-RFSCONFIG_CHKSUM=7144befbf76e3710f7f3463dacdd8629
+RFSCONFIG_CHKSUM=71f42acc068761d3596e4b23ce4b896c

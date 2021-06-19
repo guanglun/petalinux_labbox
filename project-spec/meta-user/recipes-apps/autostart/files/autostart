@@ -2,3 +2,5 @@
 
 echo "Hello PetaLinux World"
 
+/home/root/gpio.sh
+/home/root/cpu1.sh
