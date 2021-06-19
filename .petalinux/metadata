@@ -1,6 +1,6 @@
 PETALINUX_VER=2020.1
 VALIDATE_HW_CHKSUM=1
-HARDWARE_PATH=/home/guanglun/workspace/zynq/labbox/hardware/labbox_wrapper.xsa
-HARDWARE_CHECKSUM=da8170de53bb9f3a07645304e0941ce3
+HARDWARE_PATH=/home/guanglun/workspace/zynq/petalinux_labbox/hardware/labbox_wrapper.xsa
+HARDWARE_CHECKSUM=da06ced400eba149a461e56a0ffd9bd6
 YOCTO_SDK=ec2933eff44b6c49df87d39a9666aafb
 RFSCONFIG_CHKSUM=7144befbf76e3710f7f3463dacdd8629
