@@ -2548,7 +2548,7 @@ CONFIG_udev-extraconf=y
 #
 # openamp-fw-echo-testd 
 #
-# CONFIG_openamp-fw-echo-testd is not set
+CONFIG_openamp-fw-echo-testd=y
 # CONFIG_openamp-fw-echo-testd-dev is not set
 # CONFIG_openamp-fw-echo-testd-dbg is not set
 
@@ -3051,7 +3051,7 @@ CONFIG_packagegroup-core-ssh-dropbear=y
 #
 # rpmsg-echo-test 
 #
-# CONFIG_rpmsg-echo-test is not set
+CONFIG_rpmsg-echo-test=y
 # CONFIG_rpmsg-echo-test-dbg is not set
 # CONFIG_rpmsg-echo-test-dev is not set
 

@@ -1,0 +1,1 @@
+petalinux-package --boot --fsbl ./images/linux/zynq_fsbl.elf  --u-boot --force
