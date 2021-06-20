@@ -34,4 +34,10 @@
 		memory-region = <&rproc_0_reserved>, <&vdev0buffer>, <&vdev0vring0>, 
 		<&vdev0vring1>;
 	};
+
+
 };
+
+//&uart0 {
+//	status = "true";
+//};
