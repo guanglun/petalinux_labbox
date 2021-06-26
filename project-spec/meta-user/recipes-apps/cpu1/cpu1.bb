@@ -10,6 +10,8 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 SRC_URI = "	file://cpu1.elf \
 			file://cpu1.sh  \
 			file://gpio.sh  \
+			file://stop.sh  \
+			file://reload.sh  \
 			"
 
 S = "${WORKDIR}"
@@ -21,8 +23,12 @@ do_install() {
 	install -d ${D}/home/root
 	install -m 0744 ${S}/cpu1.sh ${D}/home/root/cpu1.sh
 	install -m 0744 ${S}/gpio.sh ${D}/home/root/gpio.sh
+	install -m 0744 ${S}/stop.sh ${D}/home/root/stop.sh
+	install -m 0744 ${S}/reload.sh ${D}/home/root/reload.sh
 }
 
 FILES_${PN} = "/lib/firmware/cpu1.elf"
 FILES_${PN} += "/home/root/cpu1.sh"
 FILES_${PN} += "/home/root/gpio.sh"
+FILES_${PN} += "/home/root/stop.sh"
+FILES_${PN} += "/home/root/reload.sh"

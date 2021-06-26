@@ -43,6 +43,8 @@
 
 /* sdio - ps7_sd_0 */
 
+/* i2c - ps7_i2c_0 */
+
 /* usb - ps7_usb_0 */
 #define CONFIG_EHCI_IS_TDI
 #define CONFIG_THOR_RESET_OFF
